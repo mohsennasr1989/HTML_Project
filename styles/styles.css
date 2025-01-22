@@ -1,0 +1,44 @@
+img {
+    width: 100px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  .userName {
+    font-weight: bold;
+  }
+  video {
+    width: 98vw;
+    height: 95vh;
+    object-fit: cover;
+  }
+  ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  table, td, th {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+
+  div.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0px;
+    background-color:gainsboro;
+    border-radius: 5px;
+    z-index: 30;
+  }
+
+  p {
+    text-align: justify;
+  }

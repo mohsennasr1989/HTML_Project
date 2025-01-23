@@ -1,9 +1,9 @@
 img {
-    width: 100px;
-    border-radius: 50px;
-    float: left;
-    margin-right: 10px;
+    width: 30vw;
+    border-radius: 5px;
+    /* float: left; */
     object-fit: cover;
+    margin-right: 10px;
   }
   .userName {
     font-weight: bold;
@@ -41,4 +41,18 @@ img {
 
   p {
     text-align: justify;
+  }
+
+  article {
+    margin: 20px;
+  }
+
+  figure {
+    margin: 0px;
+  }
+
+  div.article {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
   }

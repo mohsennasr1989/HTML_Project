@@ -408,27 +408,36 @@
     display: flex;
     list-style-type: none;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
     
   }
 
   li {
     display: flex;
-    height: 32px;
+    height: 48px;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+    box-sizing: border-box;
   }
 
   li :hover, li :focus{
     display: flex;
-    height: 32px;
+    height: 48px;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     border-bottom: 5px;
-    border-color: blue;
-    border-style: solid;    
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: #00AAbb;
+    border-style: solid;
+    margin: 0px;
+    box-sizing: border-box;
+    color: #00aabb
   }
 
   a,a :visited, a :link, a :default{
